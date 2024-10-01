@@ -1,0 +1,78 @@
+.ans {
+    display: flex;
+    margin-block: 10px;
+}
+
+body {
+    accent-color: rgb(4, 126, 167);
+}
+
+#question {
+    display: flex;
+    justify-content: space-between;
+}
+
+#answer-sec {
+    margin-block: 15px;
+}
+
+#card {
+    width: 800px;
+    height: fit-content;
+    padding: 40px;
+    margin: 30px;
+    font-size: 1.1rem;
+    box-shadow: 15px 15px 50px #bebebe,
+        15px 15px 25px #bebebe;
+    border-radius: 30px;
+}
+
+#parent {
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rad {
+    margin-inline: 10px;
+}
+
+#btn {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+#close_btn {
+    width: 3cm;
+    color: red;
+}
+
+#question {
+    margin-right: 15px;
+}
+
+#demo {
+    min-width: 2cm;
+}
+
+
+#bck {
+    visibility: hidden;
+    width: 3cm;
+    margin-block: 5px;
+}
+
+#nxt {
+    width: 3cm;
+    margin-block: 5px;
+}
